@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Markdown</title>
+  </head>
+  <body>
+    <div class="container">
+  <h1>Markdown Yozuvlar Ilovasi</h1>
+
+  <div class="panel">
+    <textarea id="editor" placeholder="Markdown yozing..."></textarea>
+    <div id="preview"></div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="saveNote()">Saqlash</button>
+    <button onclick="loadNote()">Yuklash</button>
+    <button onclick="clearNote()">O'chirish</button>
+  </div>
+</div>
+
+    <div id="root"></div>
+  <script src="js.js"></script>
+  </body>
+</html>
